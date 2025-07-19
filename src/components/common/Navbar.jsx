@@ -83,7 +83,7 @@ useEffect(() => {
 
 </div>
 ):(
-                      <Link to={link.path} className={`opacity-0 absolute md:relative md:opacity-100   ${matchRoute(link.path)?'text-yellow-200':'text-richblack-25'}`}>
+                      <Link to={link.path} className={`invisible pointer-events-none absolute md:visible md:relative md:pointer-events-auto   ${matchRoute(link.path)?'text-yellow-200':'text-richblack-25'}`}>
                       {link.title}
                       </Link>
                         )
