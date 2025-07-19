@@ -16,7 +16,7 @@ PORT = process.env.PORT||8000
 
 //middlewares
 app.use(cors({
-    origin:'https://code-world.vercel.app/', // Adjust the origin as needed
+    origin:'https://code-world.vercel.app', // Adjust the origin as needed
     credentials: true // Allow credentials if needed
 
 }));
